@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 0 ;
+    margin-right: 0;
+    padding: 0;
+    background-image:url("abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-attachment: fixed;
+    align-items: center;
+    
+}
+
+p {
+    color: #d4c4bb;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    padding: 1px;
+    font-size: 25px;
+
+}
+
+#top {
+    background-color:floralwhite;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+    }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin:0;
+}
+
+.polaroid {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+    margin: 35px;
+}
+
+.polaroid img {
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    font-size: 30px;
+    color: #555;
+}
+.description{
+    position: absolute;
+    bottom: 405px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    font-size: 20px;
+    color: #555;
+}
+.polaroid2 {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+    margin: 35px;
+}
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    padding: 1px;
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+
+
+.citation{
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    font-size: 20px;
+    color: white;
+}
+.polaroid3 {
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    padding: 20px;
+    background-color:#d0bcb0 ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow:hidden;
+    margin: 35px;
+}
+.back-to-top {
+            
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            color: lightgray;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+}
